@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="page">
       <h1 className="title">about this site</h1>
-      <p>hi. this site catalogs all the stupid shit the mayor of minneapolis says.</p>
+      <p>hi. this site catalogs some (but not all, there's too much to keep track of) of the stupid shit the mayor of minneapolis says.</p>
       <p>
         <a href="https://twitter.com/kanadgupta">@kanadgupta</a> built this with{" "}
         <a href="https://reactjs.org/">react</a> and{" "}
