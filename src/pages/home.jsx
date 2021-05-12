@@ -30,7 +30,14 @@ export default function Home() {
       <div className="item-container">
         {clips.map((clip, i) => {
           const audioRef = React.useRef();
-          const playAudio = () => audioRef.current && audioRef.current.play();
+          const playAudio = () => {
+            const audio = audioRef.current;
+            if (audio) {
+              audio.currentTime = 0;
+              audio.play();
+            }
+          };
+
           return (
             <div
               className="item"
