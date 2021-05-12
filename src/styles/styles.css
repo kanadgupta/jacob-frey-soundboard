@@ -190,6 +190,12 @@ h1 {
   line-height: 105%;
   overflow-wrap: anywhere;
 }
+
+.content-warning {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
 .page h1 {
   font-size: 48px;
 }
