@@ -24,7 +24,7 @@ const Seo = () => {
 
       <meta name="description" content={seo.description} />
       <meta name="robots" content="index,follow" />
-      <link rel="canonical" href={url} />
+      <link rel="canonical" href={seo.url} />
       <meta property="og:title" content={seo.title} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={seo.url} />
