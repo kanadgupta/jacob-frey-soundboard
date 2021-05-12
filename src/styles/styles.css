@@ -204,11 +204,11 @@ h1 {
   line-height: 1.5;
 }
 
-.page a {
+a {
   color: #000;
 }
 
-.page a:hover {
+a:hover {
   text-decoration: none;
 }
 
