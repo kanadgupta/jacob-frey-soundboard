@@ -192,6 +192,7 @@ h1 {
 }
 
 .content-warning {
+  font-weight: bold;
   margin-bottom: 2em;
   text-align: center;
 }
