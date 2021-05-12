@@ -171,12 +171,18 @@ body {
   border: 5px solid black;
 }
 
+.item.playing {
+  background-color: #66aabb;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .item:hover,
 .item:active,
 .item:focus {
-  text-decoration: underline;
   background: #66bb6a;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 /* Page titles */

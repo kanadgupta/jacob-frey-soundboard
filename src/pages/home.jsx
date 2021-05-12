@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 
 import clips from "../clips";
+import Clip from "../components/clip";
 
 export default function Home() {
   useEffect(() => {
@@ -20,28 +21,17 @@ export default function Home() {
     <>
       <a href="#content">skip to stupid content ⬇️</a>
       <h1 className="title">
-        hello! here&apos;s some of the stupid shit that the mayor of minneapolis has
-        actually said:
+        hello! here&apos;s some of the stupid shit that the mayor of minneapolis
+        has actually said:
       </h1>
       <div id="content" className="content-warning">
-        ⚠️ content warning: the following soundboard contains audio clips of a cop-loving mayor running his stupid mouth. proceed
-        with caution! ⚠️
+        ⚠️ content warning: the following soundboard contains audio clips of a
+        cop-loving mayor running his stupid mouth. proceed with caution! ⚠️
       </div>
       <div className="item-container">
-        {clips.map((clip, i) => {
-          const audioRef = React.useRef();
-          return (
-            <div
-              className="item"
-              key={i}
-              onClick={() => audioRef.current && audioRef.current.play()}
-            >
-              <audio ref={audioRef} src={`mp3/${clip.audio}`} />
-
-              {`"${clip.text}"`}
-            </div>
-          );
-        })}
+        {clips.map((clip, i) => (
+          <Clip key={i} clip={clip} />
+        ))}
       </div>
     </>
   );
