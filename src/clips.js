@@ -45,7 +45,7 @@ const clips = [
   },
   {
     audio: "police.mp3",
-    text: "believe it or not we actually have police that engage with the community",
+    text: "believe it or not we have police that actually engage with the community",
   },
   {
     audio: "safety.mp3",
