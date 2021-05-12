@@ -40,10 +40,6 @@ const clips = [
     text: "you can either have a mayor that's clear and honest and transparent[...] or you have what has happened the last 4 years",
   },
   {
-    audio: "alaykum.mp3",
-    text: "ٱلسَّلَامُ عَلَيْكُمْ‎",
-  },
-  {
     audio: "affordable-housing.mp3",
     text: "you gotta be willing to stand up and say 'yes we're gonna put affordable housing here'",
   },
