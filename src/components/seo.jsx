@@ -2,15 +2,15 @@ import * as React from "react";
 import { Helmet } from "react-helmet-async";
 
 const Seo = () => {
+  const url = "https://jacobfrey.live";
   const seo = {
     "glitch-help-instructions":
       "For a custom domain, change the 'url' parameter from 'glitch-default' to your domain _without_ a traling slash, like 'https://www.example.com'",
     title: "bootlicker soundboard",
     description:
       "a soundboard of some of the stupid shit that jacob frey (the mayor of minneapolis) says.",
-    url: "https://jacobfrey.live",
-    image:
-      "https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-react-social.png?v=1616712747908",
+    url,
+    image: `${url}/logo.png`,
     twitter: "@kanadgupta",
   };
 
