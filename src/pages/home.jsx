@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <a href="#content">skip to stupid content ⬇️</a>
       <h1 className="title">
-        hello! here's some of the stupid shit that the mayor of minneapolis has
+        hello! here&apos;s some of the stupid shit that the mayor of minneapolis has
         actually said:
       </h1>
       <div id="content" className="content-warning">

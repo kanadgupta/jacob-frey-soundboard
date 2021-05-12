@@ -9,35 +9,33 @@ export default function About() {
         minneapolis.
       </p>
       <p>
-        this site catalogs some (but not all, there's too much to keep track of)
-        of the stupid shit that he says.
+        this site catalogs some (but not all, there&apos;s too much to keep
+        track of) of the stupid shit that he says.
       </p>
       <p>
         <a
           target="_blank"
-          noreferrer
-          nooopener
+          rel="noreferrer"
           href="https://twitter.com/kanadgupta"
         >
           @kanadgupta
         </a>{" "}
         built this with{" "}
-        <a target="_blank" noreferrer nooopener href="https://reactjs.org/">
+        <a target="_blank" rel="noreferrer" href="https://reactjs.org/">
           react
         </a>{" "}
         and{" "}
-        <a target="_blank" noreferrer nooopener href="https://vitejs.dev/">
+        <a target="_blank" rel="noreferrer" href="https://vitejs.dev/">
           vite
         </a>
         . it was prototyped on{" "}
-        <a target="_blank" noreferrer nooopener href="https://glitch.com/">
+        <a target="_blank" rel="noreferrer" href="https://glitch.com/">
           glitch
         </a>
         . you can find the source code{" "}
         <a
           target="_blank"
-          noreferrer
-          nooopener
+          rel="noreferrer"
           href="https://github.com/kanadgupta/jacob-frey-soundboard"
         >
           here
