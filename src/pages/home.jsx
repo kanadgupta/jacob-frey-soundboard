@@ -30,11 +30,15 @@ export default function Home() {
       <div className="item-container">
         {clips.map((clip, i) => {
           const audioRef = React.useRef();
+          const playAudio = () => audioRef.current && audioRef.current.play();
           return (
             <div
               className="item"
               key={i}
-              onClick={() => audioRef.current && audioRef.current.play()}
+              onClick={playAudio}
+              onKeyDown={e => e.key === 'Enter' && playAudio()}
+              role="button"
+              tabIndex="0"
             >
               <audio ref={audioRef} src={`mp3/${clip.audio}`} />
 
