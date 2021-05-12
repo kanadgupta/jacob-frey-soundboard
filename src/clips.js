@@ -44,10 +44,6 @@ const clips = [
     text: "you gotta be willing to stand up and say 'yes we're gonna put affordable housing here'",
   },
   {
-    audio: "homelessness.mp3",
-    text: "we don't have homelessness anymore",
-  },
-  {
     audio: "police.mp3",
     text: "believe it or not we actually have police that engage with the community",
   },
