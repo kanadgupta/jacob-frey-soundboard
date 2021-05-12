@@ -36,7 +36,7 @@ export default function Home() {
               key={i}
               onClick={() => audioRef.current && audioRef.current.play()}
             >
-              <audio ref={audioRef} src={clip.audio} />
+              <audio ref={audioRef} src={`mp3/${clip.audio}`} />
 
               {`"${clip.text}"`}
             </div>
