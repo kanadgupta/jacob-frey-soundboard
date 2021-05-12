@@ -33,6 +33,7 @@ const Seo = () => {
 
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content={seo.twitter} />
+      <meta name="twitter:image" content={seo.image} />
     </Helmet>
   );
 };
