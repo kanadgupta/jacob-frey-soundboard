@@ -24,7 +24,7 @@ export default function Home() {
         actually said:
       </h1>
       <div id="content" className="content-warning">
-        ⚠️ content warning: audio clips containing cop-loving mayor running his stupid mouth. proceed
+        ⚠️ content warning: the following soundboard contains audio clips of a cop-loving mayor running his stupid mouth. proceed
         with caution! ⚠️
       </div>
       <div className="item-container">
