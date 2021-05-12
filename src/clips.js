@@ -17,7 +17,7 @@ const clips = [
   },
   {
     audio: "homelessness5yr.mp3",
-    text: "we can end homeless in 5 years and i commit to do so",
+    text: "we can end homelessness in 5 years and i commit to do so",
   },
   {
     audio: "marathon.mp3",
